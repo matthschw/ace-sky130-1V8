@@ -1,4 +1,4 @@
-// characterization single-ended opamp 'op2' in SkyWater130 1V8
+// characterization single-ended opamp 'op2' in SkyWater 130nm 1V8
 
 simulator lang=spectre
 global 0
