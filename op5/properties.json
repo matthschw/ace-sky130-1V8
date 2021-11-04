@@ -1,5 +1,6 @@
 {
   "environment":"SingleEndedOpampEnvironment",
+  "ignore":true,
   "parameters":
   {
     "vs":{
@@ -125,7 +126,6 @@
       "init": 2,
       "grid": 1,
       "max":16,
-      "si "max":3,
       "sizing":true
     },
     "Mcm212":{
