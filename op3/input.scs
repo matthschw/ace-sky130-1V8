@@ -1,4 +1,4 @@
-// characterization single-ended opamp 'op3' in XH35-3V3
+// characterization single-ended opamp 'op3' in SkyWater 130nm 1V8
 
 simulator lang=spectre
 global 0
