@@ -1,0 +1,33 @@
+// characterization schmitt-trigger 'st1' in SkyWater 130nm 1V8
+
+simulator lang=spectre
+global 0
+
+include "./models/sky130.scs" section=tt
+
+parameters T2=100p cl=100f T1=1 vdd=1.8                     \
+           ln=0.15              lp=0.15                     \
+           wn0=4.0 wn1=6.0 wn2=2.0 wp0=8.0 wp1=12.0 wp2=4.0
+
+subckt st1 I O VDD VSS
+    MN2 (VDD O X   VSS) sky130_fd_pr__nfet_01v8 m=1 w=wn2 l=ln 
+    MN1 (O   I X   VSS) sky130_fd_pr__nfet_01v8 m=1 w=wn1 l=ln 
+    MN0 (X   I VSS VSS) sky130_fd_pr__nfet_01v8 m=1 w=wn0 l=ln 
+    MP2 (VSS O Y   VDD) sky130_fd_pr__pfet_01v8 m=1 w=wp2 l=lp 
+    MP0 (Y   I VDD VDD) sky130_fd_pr__pfet_01v8 m=1 w=wp0 l=lp 
+    MP1 (O   I Y   VDD) sky130_fd_pr__pfet_01v8 m=1 w=wp1 l=lp 
+ends st1
+
+I0 (I O VDD 0) st1
+V0 (I 0) vsource type=pwl wave=[ 0 0 T1 vdd (2*T1) 0 (3*T1) 0 (3*T1+T2) \
+        vdd (4*T1+T2) vdd (4*T1+2*T2) 0 (5*T1+2*T2) 0 ]
+V1 (VDD 0) vsource dc=vdd type=dc
+C0 (O 0) capacitor c=cl
+ic O=vdd
+
+save I O
+
+simulatorOptions options reltol=1e-3 vabstol=1e-6 iabstol=1e-12 \
+                         gmin=0 rforce=1 temp=27 tnom=27 scalem=1.0 scale=1u
+
+tran tran stop=5*T1+2*T2 errpreset=conservative
