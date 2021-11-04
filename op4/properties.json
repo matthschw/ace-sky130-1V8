@@ -3,7 +3,7 @@
   "parameters":
   {
     "vs":{
-      "init":0.5,
+      "init":0.1,
       "comment":"step in differential input voltage to simulate slewing behaviour"
     },
     "cl":{
@@ -19,7 +19,7 @@
       "comment":"biasing current"
     },
     "vsup":{
-      "init":3.3,
+      "init":1.8,
       "comment":"supply voltage"
     },
     "Lcm1":{
