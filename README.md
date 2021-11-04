@@ -17,10 +17,11 @@ $ git clone --recurse-submodules -j2 https://github.com/matthschw/ace-sky130-1V8
 
 ## Circuits
 
-- [X] [op1](https://github.com/matthschw/ace/tree/main/figures/op1.png) 
-- [X] [op2](https://github.com/matthschw/ace/tree/main/figures/op2.png)
-- [X] [op3](https://github.com/matthschw/ace/tree/main/figures/op3.png)
-- [X] [op4](https://github.com/matthschw/ace/tree/main/figures/op4.png)
-- [X] [op6](https://github.com/matthschw/ace/tree/main/figures/op6.png)
-- [X] [nand6](https://github.com/matthschw/ace/tree/main/figures/nand4.png)
-- [X] [st1](https://github.com/matthschw/ace/tree/main/figures/st1.png)
+- [X] [op1](https://raw.githubusercontent.com/matthschw/ace/main/figures/op1.png) 
+- [X] [op2](https://raw.githubusercontent.com/matthschw/ace/main/figures/op2.png) 
+- [X] [op3](https://raw.githubusercontent.com/matthschw/ace/main/figures/op3.png) 
+- [X] [op4](https://raw.githubusercontent.com/matthschw/ace/main/figures/op4.png) 
+- [X] [op5](https://raw.githubusercontent.com/matthschw/ace/main/figures/op5.png) 
+- [X] [op6](https://raw.githubusercontent.com/matthschw/ace/main/figures/op6.png) 
+- [X] [nand4](https://raw.githubusercontent.com/matthschw/ace/main/figures/nand4.png) 
+- [X] [st1](https://raw.githubusercontent.com/matthschw/ace/main/figures/st1.png) 
