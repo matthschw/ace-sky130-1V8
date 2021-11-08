@@ -75,8 +75,8 @@ subckt op B INP INN O VDD VSS
     //compensation network
     //C0      (O  A   VSS) cpp area=Wcap*Wcap peri=4*Wcap m=Mcap
     //R0      (A  Y   VSS) rp2 w=Wres l=Lres m=1 
-    CL (OUT CM) capacitor c=2p
-    RL (OUT CM) resistor  r=2k
+    CL (A Y) capacitor c=3p
+    RL (O A) resistor  r=2k
 ends op
 
 simulatorOptions options reltol=100e-6 vabstol=1e-6 iabstol=1e-12 temp=27      \

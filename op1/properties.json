@@ -1,6 +1,5 @@
 {
   "environment":"SingleEndedOpampEnvironment",
-  "ignore":true,
   "parameters":
   {
     "vs":{
@@ -168,177 +167,177 @@
         },
         "MNCM11:gds":{
           "unit":"S",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:gds",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:gds",
           "comment" : "output conductance of MNCM11"
         },
         "MNCM11:id":{
           "unit":"A",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:id",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:id",
           "comment" : "drain current of MNCM11"
         },
         "MNCM11:gmoverid":{
           "unit":"1/V",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:gmoverid",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:gmoverid",
           "comment" : "gmoverid of MNCM11"
         },
         "MNCM11:fug":{
           "unit":"Hz",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:fug",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:fug",
           "comment" : "unity gain bandwidth of MNCM11"
         },
         "MNCM11:vdsat":{
           "unit":"V",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:vdsat",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:vdsat",
           "comment" : "saturation voltage of MNCM11"
         },
         "MNCM11:vgs":{
           "unit":"V",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:vgs",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:vgs",
           "comment" : "gate-source voltage of MNCM11"
         },
         "MNCM11:vds":{
           "unit":"V",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:vds",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:vds",
           "comment" : "drain-source voltage of MNCM11"
         },
         "MNCM11:vbs":{
           "unit":"V",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:vbs",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:vbs",
           "comment" : "bulk-source voltage of MNCM11"
         },
         "MNCM11:gmb":{
           "unit":"S",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:gmb",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:gmb",
           "comment" : "backgate transconductance voltage of MNCM11"
         },
         "MNCM11:vth":{
           "unit":"V",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:vth",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:vth",
           "comment" : "threshold voltage of MNCM11"
         },
         "MNCM11:self_gain":{
           "unit":"1",
-          "reference":"DUT.MNCM11.mmsky130_fd_pr__nfet_01v81:self_gain",
+          "reference":"DUT.MNCM11.msky130_fd_pr__nfet_01v8:self_gain",
           "comment" : "self-gain of MNCM11"
         },
         "MNCM12:gm":{
           "unit":"S",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:gm",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:gm",
           "comment" : "transconductance of MNCM12"
         },
         "MNCM12:gds":{
           "unit":"S",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:gds",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:gds",
           "comment" : "output conductance of MNCM12"
         },
         "MNCM12:id":{
           "unit":"A",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:id",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:id",
           "comment" : "drain current of MNCM12"
         },
         "MNCM12:gmoverid":{
           "unit":"1/V",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:gmoverid",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:gmoverid",
           "comment" : "gmoverid of MNCM12"
         },
         "MNCM12:fug":{
           "unit":"Hz",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:fug",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:fug",
           "comment" : "unity gain bandwidth of MNCM12"
         },
         "MNCM12:vdsat":{
           "unit":"V",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:vdsat",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:vdsat",
           "comment" : "saturation voltage of MNCM12"
         },
         "MNCM12:vgs":{
           "unit":"V",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:vgs",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:vgs",
           "comment" : "gate-source voltage of MNCM12"
         },
         "MNCM12:vds":{
           "unit":"V",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:vds",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:vds",
           "comment" : "drain-source voltage of MNCM12"
         },
         "MNCM12:vbs":{
           "unit":"V",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:vbs",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:vbs",
           "comment" : "bulk-source voltage of MNCM12"
         },
         "MNCM12:gmb":{
           "unit":"S",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:gmb",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:gmb",
           "comment" : "backgate transconductance voltage of MNCM12"
         },
         "MNCM12:vth":{
           "unit":"V",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:vth",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:vth",
           "comment" : "threshold voltage of MNCM12"
         },
         "MNCM12:self_gain":{
           "unit":"1",
-          "reference":"DUT.MNCM12.mmsky130_fd_pr__nfet_01v81:self_gain",
+          "reference":"DUT.MNCM12.msky130_fd_pr__nfet_01v8:self_gain",
           "comment" : "self-gain of MNCM12"
         },
         "MNCM13:gm":{
           "unit":"S",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:gm",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:gm",
           "comment" : "transconductance of MNCM13"
         },
         "MNCM13:gds":{
           "unit":"S",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:gds",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:gds",
           "comment" : "output conductance of MNCM13"
         },
         "MNCM13:id":{
           "unit":"A",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:id",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:id",
           "comment" : "drain current of MNCM13"
         },
         "MNCM13:gmoverid":{
           "unit":"1/V",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:gmoverid",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:gmoverid",
           "comment" : "gmoverid of MNCM13"
         },
         "MNCM13:fug":{
           "unit":"Hz",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:fug",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:fug",
           "comment" : "unity gain bandwidth of MNCM13"
         },
         "MNCM13:vdsat":{
           "unit":"V",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:vdsat",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:vdsat",
           "comment" : "saturation voltage of MNCM13"
         },
         "MNCM13:vgs":{
           "unit":"V",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:vgs",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:vgs",
           "comment" : "gate-source voltage of MNCM13"
         },
         "MNCM13:vds":{
           "unit":"V",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:vds",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:vds",
           "comment" : "drain-source voltage of MNCM13"
         },
         "MNCM13:vbs":{
           "unit":"V",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:vbs",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:vbs",
           "comment" : "bulk-source voltage of MNCM13"
         },
         "MNCM13:gmb":{
           "unit":"S",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:gmb",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:gmb",
           "comment" : "backgate transconductance voltage of MNCM13"
         },
         "MNCM13:vth":{
           "unit":"V",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:vth",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:vth",
           "comment" : "threshold voltage of MNCM13"
         },
         "MNCM13:self_gain":{
           "unit":"1",
-          "reference":"DUT.MNCM13.mmsky130_fd_pr__nfet_01v81:self_gain",
+          "reference":"DUT.MNCM13.msky130_fd_pr__nfet_01v8:self_gain",
           "comment" : "self-gain of MNCM13"
         },
         "X":{
@@ -389,198 +388,198 @@
           "reference":"totalOutput.dcOp",
           "comment" : "Systematic Offset"
         },
-       "MNCM11/avt/contribution":{
-          "unit":"V",
-          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
-        },
-        "MNCM11/avt/sensitivity":{
-          "unit":"1",
-          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
-        },
-        "MNCM11/ato/contribution":{
-          "unit":"V",
-          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
-        },
-        "MNCM11/ato/sensitivity":{
-          "unit":"1",
-          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
-        },        
-        "MNCM11/avo/contribution":{
+        "MNCM11/voff/contribution":{
           "unit":"V",
           "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
         },
-        "MNCM11/avo/sensitivity":{
+        "MNCM11/voff/sensitivity":{
           "unit":"1",
           "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
-        },        
-        "MNCM12/avt/contribution":{
+        },
+        "MNCM11/vth0/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
-        "MNCM12/avt/sensitivity":{
+        "MNCM11/vth0/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MNCM12/ato/contribution":{
+        "MNCM11/toxe/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MNCM12/ato/sensitivity":{
+        "MNCM11/toxe/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
-        },        
-        "MNCM12/avo/contribution":{
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },
+        "MNCM12/voff/contribution":{
           "unit":"V",
           "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
         },
-        "MNCM12/avo/sensitivity":{
+        "MNCM12/voff/sensitivity":{
           "unit":"1",
           "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
-        },        
-        "MNCM13/avt/contribution":{
+        },
+        "MNCM12/vth0/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
-        "MNCM13/avt/sensitivity":{
+        "MNCM12/vth0/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MNCM13/ato/contribution":{
+        "MNCM12/toxe/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MNCM13/ato/sensitivity":{
+        "MNCM12/toxe/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
         },
-        "MNCM13/avo/contribution":{
+        "MNCM13/voff/contribution":{
           "unit":"V",
           "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
         },
-        "MNCM13/avo/sensitivity":{
+        "MNCM13/voff/sensitivity":{
           "unit":"1",
           "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },
-        "MND11/avt/contribution":{
+        "MNCM13/vth0/contribution":{
           "unit":"V",
-          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
+          "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
-        "MND11/avt/sensitivity":{
+        "MNCM13/vth0/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
+          "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MND11/ato/contribution":{
+        "MNCM13/toxe/contribution":{
           "unit":"V",
-          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
+          "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MND11/ato/sensitivity":{
+        "MNCM13/toxe/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+          "reference":"DUT.MNCM13.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
         },
-        "MND11/avo/contribution":{
+        "MND11/voff/contribution":{
           "unit":"V",
           "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
         },
-        "MND11/avo/sensitivity":{
+        "MND11/voff/sensitivity":{
           "unit":"1",
           "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },
-        "MND12/avt/contribution":{
+        "MND11/vth0/contribution":{
           "unit":"V",
-          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
-        "MND12/avt/sensitivity":{
+        "MND11/vth0/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MND12/ato/contribution":{
+        "MND11/toxe/contribution":{
           "unit":"V",
-          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MND12/ato/sensitivity":{
+        "MND11/toxe/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
         },
-        "MND12/avo/contribution":{
+        "MND12/voff/contribution":{
           "unit":"V",
           "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
         },
-        "MND12/avo/sensitivity":{
+        "MND12/voff/sensitivity":{
           "unit":"1",
           "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },
-       "MPCM21/avt/contribution":{
+        "MND12/vth0/contribution":{
+          "unit":"V",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
+        },
+        "MND12/vth0/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
+        },
+        "MND12/toxe/contribution":{
+          "unit":"V",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
+        },
+        "MND12/toxe/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },
+        "MPCM21/vth0/contribution":{
           "unit":"V",
           "reference":"DUT.MPCM21.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Contribution",
         },
-        "MPCM21/avt/sensitivity":{
+        "MPCM21/vth0/sensitivity":{
           "unit":"1",
           "reference":"DUT.MPCM21.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MPCM21/ato/contribution":{
+        "MPCM21/toxe/contribution":{
           "unit":"V",
           "reference":"DUT.MPCM21.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MPCM21/ato/sensitivity":{
+        "MPCM21/toxe/sensitivity":{
           "unit":"1",
           "reference":"DUT.MPCM21.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Sensitivity",
-        },    
-        "MPCM21/avo/contribution":{
-          "unit":"V",
-          "reference":"DUT.MPCM21.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Contribution",
         },
-        "MPCM21/avo/sensitivity":{
+        "MPCM21/nfactor/contribution":{
+          "unit":"V",
+          "reference":"DUT.MPCM21.sky130_fd_pr__pfet_01v8__nfactor_slope_spectre(m).Contribution",
+        },
+        "MPCM21/nfactor/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM21.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Sensitivity",
-        },    
-       "MPCM22/avt/contribution":{
+          "reference":"DUT.MPCM21.sky130_fd_pr__pfet_01v8__nfactor_slope_spectre(m).Sensitivity",
+        },
+        "MPCM22/vth0/contribution":{
           "unit":"V",
           "reference":"DUT.MPCM22.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Contribution",
         },
-        "MPCM22/avt/sensitivity":{
+        "MPCM22/vth0/sensitivity":{
           "unit":"1",
           "reference":"DUT.MPCM22.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MPCM22/ato/contribution":{
+        "MPCM22/toxe/contribution":{
           "unit":"V",
           "reference":"DUT.MPCM22.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MPCM22/ato/sensitivity":{
+        "MPCM22/toxe/sensitivity":{
           "unit":"1",
           "reference":"DUT.MPCM22.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Sensitivity",
-        },    
-        "MPCM22/avo/contribution":{
-          "unit":"V",
-          "reference":"DUT.MPCM22.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Contribution",
         },
-        "MPCM22/avo/sensitivity":{
+        "MPCM22/nfactor/contribution":{
+          "unit":"V",
+          "reference":"DUT.MPCM22.sky130_fd_pr__pfet_01v8__nfactor_slope_spectre(m).Contribution",
+        },
+        "MPCM22/nfactor/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM22.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Sensitivity",
-        },    
-        "MPCS/avt/contribution":{
+          "reference":"DUT.MPCM22.sky130_fd_pr__pfet_01v8__nfactor_slope_spectre(m).Sensitivity",
+        },
+        "MPCS/vth0/contribution":{
           "unit":"V",
           "reference":"DUT.MPCS.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Contribution",
         },
-        "MPCS/avt/sensitivity":{
+        "MPCS/vth0/sensitivity":{
           "unit":"1",
           "reference":"DUT.MPCS.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MPCS/ato/contribution":{
-          "unit":"1",
+        "MPCS/toxe/contribution":{
+          "unit":"V",
           "reference":"DUT.MPCS.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MPCS/ato/sensitivity":{
+        "MPCS/toxe/sensitivity":{
           "unit":"1",
           "reference":"DUT.MPCS.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Sensitivity",
         },
-        "MPCS/avo/contribution":{
-          "unit":"1",
-          "reference":"DUT.MPCS.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Contribution",
+        "MPCS/nfactor/contribution":{
+          "unit":"V",
+          "reference":"DUT.MPCS.sky130_fd_pr__pfet_01v8__nfactor_slope_spectre(m).Contribution",
         },
-        "MPCS/avo/sensitivity":{
+        "MPCS/nfactor/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCS.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Sensitivity",
-        },
+          "reference":"DUT.MPCS.sky130_fd_pr__pfet_01v8__nfactor_slope_spectre(m).Sensitivity",
+        }
       },
 
       "stb":
