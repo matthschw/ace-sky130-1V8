@@ -1,6 +1,5 @@
 {
   "environment":"SingleEndedOpampEnvironment",
-  "ignore":true,
   "parameters":
   {
     "vs":{
