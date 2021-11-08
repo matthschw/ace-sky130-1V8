@@ -1261,7 +1261,7 @@
         "MPCM222/ato/sensitivity":{
           "unit":"1",
           "reference":"DUT.MPCM222.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Sensitivity",
-        }
+        },
         "MPCM222/avo/contribution":{
           "unit":"V",
           "reference":"DUT.MPCM222.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Contribution",
