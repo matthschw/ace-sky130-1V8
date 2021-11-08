@@ -81,7 +81,7 @@ ends op
 
 simulatorOptions options reltol=100e-6 vabstol=1e-6 iabstol=1e-12 temp=27      \
                          tnom=27 homotopy=all gmin=1e-12 rforce=1              \
-                         save=selected dc_pivot_check=yes
+                         save=selected dc_pivot_check=yes scale=1u
 
 save DUT.M*.m*:gm   DUT.M*.m*:gds   DUT.M*.m*:id  DUT.M*.m*:gmoverid           \
      DUT.M*.m*:fug  DUT.M*.m*:vdsat DUT.M*.m*:vgs DUT.M*.m*:vds                \
