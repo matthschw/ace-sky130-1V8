@@ -1032,163 +1032,243 @@
         },
         "MNCM11/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM11.Avt_nmos(m).Contribution",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MNCM11/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM11.Avt_nmos(m).Sensitivity",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MNCM11/au0/contribution":{
+        "MNCM11/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM11.Au0_nmos(m).Contribution",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MNCM11/au0/sensitivity":{
+        "MNCM11/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM11.Au0_nmos(m).Sensitivity",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },        
+        "MNCM11/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MNCM11/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MNCM11.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },        
         "MNCM12/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM12.Avt_nmos(m).Contribution",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MNCM12/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM12.Avt_nmos(m).Sensitivity",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MNCM12/au0/contribution":{
+        "MNCM12/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM12.Au0_nmos(m).Contribution",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MNCM12/au0/sensitivity":{
+        "MNCM12/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM12.Au0_nmos(m).Sensitivity",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },
+        "MNCM12/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MNCM12/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MNCM12.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },
         "MND11/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MND11.Avt_nmos(m).Contribution",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MND11/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MND11.Avt_nmos(m).Sensitivity",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MND11/au0/contribution":{
+        "MND11/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MND11.Au0_nmos(m).Contribution",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MND11/au0/sensitivity":{
+        "MND11/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MND11.Au0_nmos(m).Sensitivity",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },
+        "MND11/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MND11/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MND11.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },
         "MND12/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MND12.Avt_nmos(m).Contribution",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MND12/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MND12.Avt_nmos(m).Sensitivity",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MND12/au0/contribution":{
+        "MND12/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MND12.Au0_nmos(m).Contribution",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MND12/au0/sensitivity":{
+        "MND12/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MND12.Au0_nmos(m).Sensitivity",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },
+        "MND12/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MND12/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MND12.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },
         "MNCM31/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM31.Avt_nmos(m).Contribution",
+          "reference":"DUT.MNCM31.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MNCM31/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM31.Avt_nmos(m).Sensitivity",
+          "reference":"DUT.MNCM31.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MNCM31/au0/contribution":{
+        "MNCM31/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM31.Au0_nmos(m).Contribution",
+          "reference":"DUT.MNCM31.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MNCM31/au0/sensitivity":{
+        "MNCM31/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM31.Au0_nmos(m).Sensitivity",
+          "reference":"DUT.MNCM31.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },        
+        "MNCM31/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MNCM31.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MNCM31/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MNCM31.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },        
         "MNCM32/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM32.Avt_nmos(m).Contribution",
+          "reference":"DUT.MNCM32.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MNCM32/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM32.Avt_nmos(m).Sensitivity",
+          "reference":"DUT.MNCM32.sky130_fd_pr__nfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MNCM32/au0/contribution":{
+        "MNCM32/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MNCM32.Au0_nmos(m).Contribution",
+          "reference":"DUT.MNCM32.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MNCM32/au0/sensitivity":{
+        "MNCM32/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MNCM32.Au0_nmos(m).Sensitivity",
+          "reference":"DUT.MNCM32.sky130_fd_pr__nfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },
+        "MNCM32/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MNCM32.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MNCM32/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MNCM32.sky130_fd_pr__nfet_01v8__voff_slope_spectre(m).Sensitivity",
         },
         "MPCM211/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MPCM211.Avt_pmos(m).Contribution",
+          "reference":"DUT.MPCM211.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MPCM211/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM211.Avt_pmos(m).Sensitivity",
+          "reference":"DUT.MPCM211.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MPCM211/au0/contribution":{
+        "MPCM211/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MPCM211.Au0_pmos(m).Contribution",
+          "reference":"DUT.MPCM211.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MPCM211/au0/sensitivity":{
+        "MPCM211/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM211.Au0_pmos(m).Sensitivity",
+          "reference":"DUT.MPCM211.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },     
+        "MPCM211/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MPCM211.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MPCM211/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MPCM211.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Sensitivity",
         },     
         "MPCM212/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MPCM212.Avt_pmos(m).Contribution",
+          "reference":"DUT.MPCM212.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MPCM212/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM212.Avt_pmos(m).Sensitivity",
+          "reference":"DUT.MPCM212.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MPCM212/au0/contribution":{
+        "MPCM212/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MPCM212.Au0_pmos(m).Contribution",
+          "reference":"DUT.MPCM212.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MPCM212/au0/sensitivity":{
+        "MPCM212/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM212.Au0_pmos(m).Sensitivity",
+          "reference":"DUT.MPCM212.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },  
+        "MPCM212/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MPCM212.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MPCM212/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MPCM212.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Sensitivity",
         },  
         "MPCM221/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MPCM221.Avt_pmos(m).Contribution",
+          "reference":"DUT.MPCM221.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MPCM221/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM221.Avt_pmos(m).Sensitivity",
+          "reference":"DUT.MPCM221.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MPCM221/au0/contribution":{
+        "MPCM221/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MPCM221.Au0_pmos(m).Contribution",
+          "reference":"DUT.MPCM221.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MPCM221/au0/sensitivity":{
+        "MPCM221/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM221.Au0_pmos(m).Sensitivity",
+          "reference":"DUT.MPCM221.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        },  
+        "MPCM221/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MPCM221.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MPCM221/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MPCM221.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Sensitivity",
         },  
         "MPCM222/avt/contribution":{
           "unit":"V",
-          "reference":"DUT.MPCM222.Avt_pmos(m).Contribution",
+          "reference":"DUT.MPCM222.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Contribution",
         },
         "MPCM222/avt/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM222.Avt_pmos(m).Sensitivity",
+          "reference":"DUT.MPCM222.sky130_fd_pr__pfet_01v8__vth0_slope_spectre(m).Sensitivity",
         },
-        "MPCM222/au0/contribution":{
+        "MPCM222/ato/contribution":{
           "unit":"V",
-          "reference":"DUT.MPCM222.Au0_pmos(m).Contribution",
+          "reference":"DUT.MPCM222.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Contribution",
         },
-        "MPCM222/au0/sensitivity":{
+        "MPCM222/ato/sensitivity":{
           "unit":"1",
-          "reference":"DUT.MPCM222.Au0_pmos(m).Sensitivity",
+          "reference":"DUT.MPCM222.sky130_fd_pr__pfet_01v8__toxe_slope_spectre(m).Sensitivity",
+        }
+        "MPCM222/avo/contribution":{
+          "unit":"V",
+          "reference":"DUT.MPCM222.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Contribution",
+        },
+        "MPCM222/avo/sensitivity":{
+          "unit":"1",
+          "reference":"DUT.MPCM222.sky130_fd_pr__pfet_01v8__voff_slope_spectre(m).Sensitivity",
         }
       },
 
