@@ -10,42 +10,42 @@
       "init":100e-15,
       "comment":"load capacitance"
     },
-    "wn2":{
+    "Wn2":{
       "min":0.42,
       "init":3.0,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wn1":{
+    "Wn1":{
       "min":0.42,
       "init":3.0,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wn0":{
+    "Wn0":{
       "min":0.42,
       "init":3.0,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wp2":{
+    "Wp2":{
       "min":0.42,
       "init":3.0,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wp1":{
+    "Wp1":{
       "min":0.42,
       "init":3.0,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wp0":{
+    "Wp0":{
       "min":0.42,
       "init":3.0,
       "grid":0.05,

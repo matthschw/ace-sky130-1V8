@@ -6,16 +6,16 @@ global 0
 include "./models/sky130.scs" section=tt
 
 parameters T2=100p cl=100f T1=1 vdd=1.8                     \
-           ln=0.15              lp=0.15                     \
-           wn0=4.0 wn1=6.0 wn2=2.0 wp0=8.0 wp1=12.0 wp2=4.0
+           Ln=0.15              Lp=0.15                     \
+           Wn0=4.0 Wn1=6.0 Wn2=2.0 Wp0=8.0 Wp1=12.0 Wp2=4.0
 
 subckt st1 I O VDD VSS
-    MN2 (VDD O X   VSS) sky130_fd_pr__nfet_01v8 m=1 w=wn2 l=ln 
-    MN1 (O   I X   VSS) sky130_fd_pr__nfet_01v8 m=1 w=wn1 l=ln 
-    MN0 (X   I VSS VSS) sky130_fd_pr__nfet_01v8 m=1 w=wn0 l=ln 
-    MP2 (VSS O Y   VDD) sky130_fd_pr__pfet_01v8 m=1 w=wp2 l=lp 
-    MP0 (Y   I VDD VDD) sky130_fd_pr__pfet_01v8 m=1 w=wp0 l=lp 
-    MP1 (O   I Y   VDD) sky130_fd_pr__pfet_01v8 m=1 w=wp1 l=lp 
+    MN2 (VDD O X   VSS) sky130_fd_pr__nfet_01v8 m=1 w=Wn2 l=Ln 
+    MN1 (O   I X   VSS) sky130_fd_pr__nfet_01v8 m=1 w=Wn1 l=Ln 
+    MN0 (X   I VSS VSS) sky130_fd_pr__nfet_01v8 m=1 w=Wn0 l=Ln 
+    MP2 (VSS O Y   VDD) sky130_fd_pr__pfet_01v8 m=1 w=Wp2 l=Lp 
+    MP0 (Y   I VDD VDD) sky130_fd_pr__pfet_01v8 m=1 w=Wp0 l=Lp 
+    MP1 (O   I Y   VDD) sky130_fd_pr__pfet_01v8 m=1 w=Wp1 l=Lp 
 ends st1
 
 I0 (I O VDD 0) st1
