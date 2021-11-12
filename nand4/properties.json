@@ -6,35 +6,35 @@
       "init":1.8,
       "comment":"supply voltage"
     },
-    "wn3":{
+    "Wn3":{
       "min":0.7,
       "init":18.5,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wn2":{
+    "Wn2":{
       "min":0.7,
       "init":20,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wn1":{
+    "Wn1":{
       "min":0.7,
       "init":7.7,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wn0":{
+    "Wn0":{
       "min":0.7,
       "init":4.6,
       "grid":0.05,
       "max":100,
       "sizing":true
     },
-    "wp":{
+    "Wp":{
       "min":0.7,
       "init":10,
       "grid":0.05,
