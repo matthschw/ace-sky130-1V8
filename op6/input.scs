@@ -70,7 +70,7 @@ subckt op B INP INN O VDD VSS
 
     //compensation network
     MPC1   (O  A   O   O)   sky130_fd_pr__pfet_01v8 m=Mc1 w=Wc1 l=Lc1 
-    MPR1    (A  VSS Y   VDD) sky130_fd_pr__pfet_01v8 m=Mr1 w=Wr1 l=Lr1 
+    MPR1   (A  VSS Y   VDD) sky130_fd_pr__pfet_01v8 m=Mr1 w=Wr1 l=Lr1 
     MPCS   (O  Y   VDD VDD) sky130_fd_pr__pfet_01v8 m=Mcs w=Wcs l=Lcs 
 ends op
 
