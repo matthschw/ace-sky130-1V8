@@ -1,5 +1,6 @@
 {
   "environment":"SingleEndedOpampEnvironment",
+  "scale":1e-6,
   "parameters":
   {
     "vs":{

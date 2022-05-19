@@ -1,5 +1,6 @@
 {
   "environment":"Nand4Environment",
+  "scale":1e-6,
   "parameters":
   {
     "vdd":{

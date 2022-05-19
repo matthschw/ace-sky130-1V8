@@ -1,5 +1,6 @@
 {
   "environment":"SingleEndedOpampEnvironment",
+  "scale":1e-6,
   "constraint":"Mcm212=Mcm222*Mcm32/Mcm31",
   "parameters":
   {
